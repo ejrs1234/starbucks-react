@@ -1,0 +1,129 @@
+/* src/App.css */
+.app {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+}
+
+.header {
+  background-color: #00704a;
+  color: #fff;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2%;
+  margin-left: 15%;
+  margin-right: 15%;
+  
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+.menu button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.menu button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.user-section button {
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.user-section button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.main-content {
+  margin-top: 0%;
+  padding: 0%;
+}
+
+.starbucks-info {
+  background-color: white;
+  align-content: center;
+  opacity: initial;
+  max-width: 1500px;
+  margin-top: 0%;
+  margin: 0%;
+}
+
+.content {
+  background-color: rgba(255, 166, 0, 0.555);
+  opacity: initial;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 35vh;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.texto1 {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.img1 {
+  width: 49%;
+}
+
+.img1 img {
+  width: 90%;
+  max-width: 90%;
+  height: auto;
+}
+
+.content2 {
+  background-color:rgb(87, 172, 76);
+  opacity: initial;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  height: 35vh;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+.texto2 {
+  text-align: right;
+  margin-left: 20px;
+  width: 50%;
+}
+
+.img2 {
+  width: 49%;
+}
+
+.img2 img {
+  width: 80%;
+  height: 60%;
+}
+
+.footer {
+  width: 30%;
+  height: 30%;
+  text-align: center;
+}
